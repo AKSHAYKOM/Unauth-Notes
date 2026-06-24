@@ -23,7 +23,7 @@ app.get("/notes",function(req,res){
 })
 
 app.get("/",function(req,res){
-    res.sendFile(__dirname + "/index.html");
+    res.sendFile(__dirname + "/Frontend/index.html")  //dirname is a global variable that gives the current directory path and /index.html is the file name
 })
 
 app.listen(3000);
